@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    --gray:rgba(247, 239, 239, 0.856);
+    --gray2:gray;
+}
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.navbar-brand{
+    font-size:40px;
+    font-weight:1000;
+}
+.d-flex input{
+    width:250%;
+}
+input[type=text], 
+input[type=password] { 
+        width: 100%; 
+        padding: 12px 40px; 
+        margin: 8px 0; 
+        text-align:center;
+} 
+.location{
+    margin-top:5%;
+    position: relative;
+}
+.location i{
+    position: absolute;
+    top:10px;
+    left:5px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-container h3{
+    margin:3%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header i{
+    font-size:40px;
+    padding:3%;
+    margin-top:1%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.deliver:hover,.nutrition:hover{
+   color:red;
+}
+.p-2{
+    border: 2px solid var(--gray2);
+    padding:2%;
+    margin:1%;
+    border-radius:15%;
+    opacity:0.4;
+}
+.img-grid{
+    background-color: var(--gray);
+    padding: 2%;
+} 
+.img-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img-item{
+    padding:1%;
+    height:200px;
+    width:200px;
+    border-radius:45px;
+}
+.restautant-grid h3{
+    margin: 1%;
+    padding: 1%;
+}
+.restautant-grid .img-item{
+    height:250px;
+    width: 300px;
+    border-radius: 10%;
+    padding: 2%;
+}
+.res-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-gap:20px; */
+    justify-content: space-evenly;
+}
+.explore h2,h3,p{
+    line-height: 2;
+}
+.footer{
+    background-color: var(--gray);
+    margin-top:1.5%;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.foot a,.explore a,.cities a{
+    text-decoration: none;
+    color:black;
+}
+.foot a:hover{
+    cursor:pointer;
+}
+.media{
+    display:flex;
+    justify-content: space-between;
+}
+.media i{
+    margin:6%;
+}
+.text{
+    padding: 2%;
+}
+.cityItems{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.city-list1 a{
+    line-height:2.5;
+}
